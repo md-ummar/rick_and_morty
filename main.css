@@ -1,0 +1,137 @@
+
+.mobile-nav {
+    display: none;
+}
+
+.mb-1 {
+    margin: 0;
+    margin-bottom: 0.9em;
+}
+
+body, html {
+    font-family: arial, sans-serif;
+    background-color: #120000;
+    color: #fff;
+    margin: 0;
+
+}
+
+h1, h2{
+    color: #ff213c;
+}
+
+a {
+    color: #ff213c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+
+.container {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+    min-width: 100%;
+}
+
+/* navigation */
+#main-header, #main-header * {
+    transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+#main-header {
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 3;
+}
+
+#main-header.scrolled {
+    position: fixed;
+    background-color: #0d0a12;
+}
+
+
+header > nav > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+header > nav > ul > li {
+    margin: 0 2% ;
+    position: relative;
+}
+
+header > nav > ul > li.brand {
+    max-width: 9%;
+    margin: 0;
+}
+
+header > nav > ul > li.brand >img {
+    width: 100%;
+}
+
+header > nav > ul > li.brand > a {
+    padding: 0;
+}
+
+header > nav > ul > li > a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    display: block;
+    padding: 20px;
+}
+
+
+header > nav > ul >li:hover > a{
+    color:rgb(18,174,198);
+}
+
+
+
+/* slider */
+
+.slider > figure {
+    margin: 0;
+}
+
+.slider > figure > img {
+    width: 100%;
+    max-height: 100vh;
+}
+
+.slider > .slide-caption {
+    background-color: #120000;
+    border-left: 5px solid #ff213c;
+    color: #fff;
+
+    position: absolute;
+    top: 15%;
+    left: 4%;
+
+    width: 25%;
+    padding: 25px;
+}
+
+
+
+
+
